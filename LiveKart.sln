@@ -1,0 +1,197 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveKart.Shared", "LiveKart\LiveKart.Shared\LiveKart.Shared.csproj", "{6DA21A9E-AE42-4C17-B763-05F959171771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveKart.Business", "LiveKart\LiveKart.Business\LiveKart.Business.csproj", "{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveKart.Web", "LiveKart\LiveKart.Web\LiveKart.Web.csproj", "{7639B30F-4CDD-4454-9E2E-A1662B32430B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE} = {0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveKart.LogService", "LiveKart\LiveKart.LogService\LiveKart.LogService.csproj", "{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveKart.Web.Test", "LiveKart.Web.Test\LiveKart.Web.Test.csproj", "{83E9FE36-D360-4F14-BE6A-45207BCB23F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Pattern.Ef6", "Repository.Pattern.Ef6\Repository.Pattern.Ef6.csproj", "{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Pattern", "Repository.Pattern\Repository.Pattern.csproj", "{6E682A14-C872-4813-B620-76E108DEA683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveKart.Entities", "LiveKart\LiveKart.Entities\LiveKart.Entities.csproj", "{86118CE3-8380-4E3F-8524-9391BFF38507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Pattern", "Service.Pattern\Service.Pattern.csproj", "{86F86650-EE3C-4372-8FEC-40C2FE015022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveKart.Repository", "LiveKart\LiveKart.Repository\LiveKart.Repository.csproj", "{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveKart.Service", "LiveKart\LiveKart.Service\LiveKart.Service.csproj", "{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mobiglue.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LiveKart\\LiveKart.Shared\\LiveKart.Shared.csproj
+		SccProjectName1 = LiveKart/LiveKart.Shared
+		SccLocalPath1 = LiveKart\\LiveKart.Shared
+		SccProjectUniqueName2 = LiveKart\\LiveKart.Business\\LiveKart.Business.csproj
+		SccProjectName2 = LiveKart/LiveKart.Business
+		SccLocalPath2 = LiveKart\\LiveKart.Business
+		SccProjectUniqueName3 = LiveKart\\LiveKart.Web\\LiveKart.Web.csproj
+		SccProjectName3 = LiveKart/LiveKart.Web
+		SccLocalPath3 = LiveKart\\LiveKart.Web
+		SccProjectUniqueName4 = LiveKart\\LiveKart.LogService\\LiveKart.LogService.csproj
+		SccProjectName4 = LiveKart/LiveKart.LogService
+		SccLocalPath4 = LiveKart\\LiveKart.LogService
+		SccProjectUniqueName5 = LiveKart.Web.Test\\LiveKart.Web.Test.csproj
+		SccProjectName5 = LiveKart.Web.Test
+		SccLocalPath5 = LiveKart.Web.Test
+		SccProjectUniqueName6 = Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj
+		SccProjectName6 = Repository.Pattern.Ef6
+		SccLocalPath6 = Repository.Pattern.Ef6
+		SccProjectUniqueName7 = Repository.Pattern\\Repository.Pattern.csproj
+		SccProjectName7 = Repository.Pattern
+		SccLocalPath7 = Repository.Pattern
+		SccProjectUniqueName8 = LiveKart\\LiveKart.Entities\\LiveKart.Entities.csproj
+		SccProjectName8 = LiveKart/LiveKart.Entities
+		SccLocalPath8 = LiveKart\\LiveKart.Entities
+		SccProjectUniqueName9 = Service.Pattern\\Service.Pattern.csproj
+		SccProjectName9 = Service.Pattern
+		SccLocalPath9 = Service.Pattern
+		SccProjectUniqueName10 = LiveKart\\LiveKart.Repository\\LiveKart.Repository.csproj
+		SccProjectName10 = LiveKart/LiveKart.Repository
+		SccLocalPath10 = LiveKart\\LiveKart.Repository
+		SccProjectUniqueName11 = LiveKart\\LiveKart.Service\\LiveKart.Service.csproj
+		SccProjectName11 = LiveKart/LiveKart.Service
+		SccLocalPath11 = LiveKart\\LiveKart.Service
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6DA21A9E-AE42-4C17-B763-05F959171771}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5EFAC084-376A-4BE4-9A45-B7F786AB01AE}.Release|x86.ActiveCfg = Release|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7639B30F-4CDD-4454-9E2E-A1662B32430B}.Release|x86.ActiveCfg = Release|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{115F3089-9D27-42E3-A6D8-C66CA9DEEA7F}.Release|x86.ActiveCfg = Release|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{83E9FE36-D360-4F14-BE6A-45207BCB23F2}.Release|x86.ActiveCfg = Release|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Release|x86.ActiveCfg = Release|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Release|x86.ActiveCfg = Release|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{86118CE3-8380-4E3F-8524-9391BFF38507}.Release|x86.ActiveCfg = Release|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Release|x86.ActiveCfg = Release|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5A7BADA6-60F4-4520-A3DD-7B0300FA425E}.Release|x86.ActiveCfg = Release|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0F4C7D7C-313A-472A-9A00-58EC6DB1EFFE}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
